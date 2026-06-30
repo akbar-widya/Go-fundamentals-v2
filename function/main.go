@@ -5,9 +5,10 @@ import (
 	"os"
 
 	// Replace "myproject" with the actual module name found in your go.mod file
+	"practice/four"
 	"practice/one"
-	"practice/two"
 	"practice/three"
+	"practice/two"
 )
 
 func main() {
@@ -29,6 +30,9 @@ func main() {
 	case "3":
 		fmt.Println("--- Running Example Three ---")
 		three.Run()
+	case "4":
+		fmt.Println("--- Running Example Three ---")
+		four.Run()
 	default:
 		fmt.Println("Unknown choice:", choice)
 	}
