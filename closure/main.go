@@ -7,8 +7,8 @@ import (
 	// Replace "myproject" with the actual module name found in your go.mod file
 	// "practice/four"
 	"practice/one"
+	"practice/three"
 	"practice/two"
-	// "practice/three"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 		two.Run()
 	case "3":
 		fmt.Println("--- Running Example Three ---")
-		// three.Run()
+		three.Run()
 	case "4":
 		fmt.Println("--- Running Example Three ---")
 		// four.Run()
